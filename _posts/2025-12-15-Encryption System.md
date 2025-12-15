@@ -3,9 +3,9 @@ title: Encryption system
 date: 2025-12-15
 categories: [Criptography]
 tags: [python]     # TAG names should always be lowercase
-description: A project on encryption with python.
+description: Encryption with python. 
 ---
-# Secure Grade Management System - Technical Documentation
+# Secure Grade Management System
 
 ## Overview
 
@@ -64,7 +64,7 @@ def setup_pki():
 
 Why this hierarchy? Security through compartmentalization. If the Sub CA's key gets compromised, you can revoke it with the Root CA and issue a new one. But if your Root CA is offline and secure, your entire PKI doesn't collapse.
 
-### User Certificate Issuance
+### User Certificate
 
 When a user registers, they get a certificate signed by the Sub CA:
 
