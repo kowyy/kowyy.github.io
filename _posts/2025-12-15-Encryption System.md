@@ -3,9 +3,11 @@ title: Encryption system
 date: 2025-12-15
 categories: [Criptography]
 tags: [python]     # TAG names should always be lowercase
-description: Encryption with python. 
+description: Encryption with python.
 ---
 # Secure Grade Management System
+
+[Repositorio](https://github.com/kowyy/cripto_practica_25_26)
 
 ## Overview
 
@@ -599,16 +601,14 @@ Internally:
 
 The old signature becomes invalid for the new data. You can't modify grades without leaving a trace.
 
-## Improvements That Could Be Made
+## Execution
 
-This is an academic project, so there are areas that could be enhanced for production use:
+For executing the program, you just have to clone it and then:
 
-1. **Database**: Use a proper database system (PostgreSQL, MySQL) instead of JSON files. This would provide ACID guarantees, better concurrency control, and query optimization.
+```bash
+python ./interactive_test.py
+# or
+python ./main.py
+```
 
-2. **OCSP for revocation**: The CRL is a simple JSON file. Production systems should use OCSP (Online Certificate Status Protocol) for real-time revocation checks, or OCSP stapling for better performance.
-
-3. **Multi-Factor Authentication**: Add TOTP, hardware tokens (FIDO2/WebAuthn), or biometric factors alongside password authentication.
-
-4. **Certificate profiles**: Define proper X.509v3 extensions like Key Usage, Extended Key Usage, and Certificate Policies for more granular control.
-
-5. **Rate limiting**: Add rate limiting for login attempts and other sensitive operations to prevent brute-force attacks.
+Then you can visualize how everything is stored and how it works.
