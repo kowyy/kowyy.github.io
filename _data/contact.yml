@@ -9,6 +9,7 @@
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
+  url: 'mailto:akowalczykh@gmail.com'
 
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
