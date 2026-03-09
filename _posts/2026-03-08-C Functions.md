@@ -1,6 +1,6 @@
 ---
-title: OS System Calls - mycalc & mydu
-date: 2025-10-05
+title: C Functions, OS System Calls
+date: 2026-03-08
 categories: [Operating Systems]
 tags: [c, linux, posix]
 description: Implementing a calculator and disk usage utility using only POSIX system calls. Simple project, but found it curious to replicate functions which I use everyday without using default libraries.
